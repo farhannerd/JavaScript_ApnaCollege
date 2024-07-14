@@ -115,3 +115,20 @@ console.log("After deleting element at index 3 splice(3, 1) : ", arr);
 
 console.log(arr.splice(4)); // act as slice() method
 
+// -------------------------------------------------------------------------------
+
+/* Quuestion : Create an array to store companies -> */
+
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+// Remove the fisrt  company from the array
+// companies.shift();
+// console.log(companies);
+
+// Remove Uber & Add Ola in its place
+// companies.splice(2, 1, "Ola");
+// console.log(companies);
+
+// Add Amazon at the end
+companies.push("Amazon");
+console.log(companies);
